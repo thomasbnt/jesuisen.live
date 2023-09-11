@@ -1,6 +1,6 @@
-# jesuisen.live
+# [Jesuisen.live](https://jesuisen.live)
 
-> **Info**
+> **Note**
 > 
 > jesuisen.live means "I'm live". Show us with a simple link your Twitch Stream with beautiful informations in the embed SEO.
 
