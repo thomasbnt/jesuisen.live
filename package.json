@@ -1,0 +1,13 @@
+{
+  "name": "jesuisen.live",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "serve": "node app.js",
+    "nodemonde:serve": "nodemon app.js"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.11.2",
+    "fastify": "^4.23.2"
+  }
+}
