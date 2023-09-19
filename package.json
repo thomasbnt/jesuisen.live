@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "serve": "node app.js",
-    "nodemonde:serve": "nodemon app.js"
+    "serve": "node src/app.js",
+    "nodemonde:serve": "nodemon src/app.js"
   },
   "dependencies": {
     "@fastify/static": "^6.11.2",
+    "@fastify/view": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
     "fastify": "^4.23.2"
   }
 }

@@ -10,6 +10,18 @@ Will  Build with :
 - Twitch API
 - Awesome devs
 
+## How to start ?
+
+1. Register your Twitch Application [here](https://dev.twitch.tv/console/apps/create) and get your Client ID.
+2. And get your **Client ID** and **Client Secret**.
+3. Create a `.env` file and add your **Client ID** and **Client Secret** like this :
+```dotenv
+TWITCH_CLIENT_ID=your_client_id
+TWITCH_CLIENT_SECRET=your_client_secret
+```
+
+
+
 ## Development
 
 Install dependencies : 
