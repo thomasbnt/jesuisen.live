@@ -1,7 +1,6 @@
 module.exports = function (fastify, opts, done) {
   fastify.get('/u/:username', async function (req, res) {
     const data = await CheckIfUserExists(req, res, req.params.username)
-    console.log(data)
     if (data.status === 400) {
       res.code(400)
       return res.view('src/templates/error/404.ejs', {message: data.message})
