@@ -56,7 +56,6 @@ yarn serve
 
 ### Routes
 
-- [x] /
-- [x] /u/:username
-- [x] /u/
-- [x] /about
+- [x] /:username
+- [x] /:username/json
+- [x] /p/about

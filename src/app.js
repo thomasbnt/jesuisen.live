@@ -12,13 +12,8 @@ fastify.register(fastifyStatic, {
   root: path.join(__dirname, 'public')
 })
 
-// Index page
-fastify.get('/', (request, reply) => {
-  reply.sendFile('index.html')
-})
-
 // About page
-fastify.get('/about', (request, reply) => {
+fastify.get('/p/about', (request, reply) => {
   reply.sendFile('about.html')
 })
 

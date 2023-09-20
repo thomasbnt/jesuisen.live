@@ -1,5 +1,5 @@
 module.exports = function (fastify, opts, done) {
-  fastify.get('/u/:username', async function (req, res) {
+  fastify.get('/:username', async function (req, res) {
     const data = await CheckIfUserExists(req, res, req.params.username)
     if (data.status === 400) {
       res.code(400)
@@ -21,7 +21,7 @@ module.exports = function (fastify, opts, done) {
   done()
 
   // /u/:username/json
-  fastify.get('/u/:username/json', async function (req, res) {
+  fastify.get('/:username/json', async function (req, res) {
     console.log('JSON username')
     const data = await CheckIfUserExists(req, res, req.params.username)
     return res.send({data: data.data[0]})
