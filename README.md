@@ -1,7 +1,6 @@
 [![Jesuisen.live wordmark](doc/wordmark.svg)](https://jesuisen.live)
 
-[![Hacktoberfest 2023](doc/hacktoberfest.png)](https://hacktoberfest.com/)
-This project is open for Hacktoberfest 2023! Feel free to contribute
+This project is open for [Hacktoberfest](https://hacktoberfest.com/) 2023! Feel free to contribute
 
 ![Preview](https://github.com/thomasbnt/jesuisen.live/assets/14293805/96880a50-143b-4ac9-902b-982afed05114)
 > **Note**
