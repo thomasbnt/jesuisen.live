@@ -30,7 +30,11 @@ body {
 section {
 	max-width: var(--query-desktop);
 	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
+
 }
 
 h1 {
@@ -40,8 +44,17 @@ h1 {
 	text-transform: uppercase;
 }
 
+p {
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin: .5rem;
+	max-width: var(--query-tablet);
+}
+
 a {
 	color: var(--light);
+	text-decoration: none;
+
 	&:hover {
 		text-decoration: none;
 	}
@@ -68,8 +81,22 @@ button, .btn {
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	margin-top: 1rem;
 
 	&:hover {
 		box-shadow: unset;
+	}
+}
+
+footer {
+	position: fixed;
+	bottom: 2rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	text-transform: uppercase;
+	/*Don't understand why var(--query-mobile) doesn't work here*/
+	@media screen and (max-width: 576px) {
+		flex-direction: column;
 	}
 }
