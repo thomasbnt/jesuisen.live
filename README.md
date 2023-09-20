@@ -1,4 +1,8 @@
-[![Jesuisen.live wordmark](doc/wordmark.svg)](https://jesuisen.live)
+<p align="center">
+<a href="https://jesuisen.live" target="_blank" rel="noopener noreferrer">
+<img src="doc/wordmark.svg" width="200" alt="Jesuisen.live logo">
+</a>
+</p>
 
 This project is open for [Hacktoberfest](https://hacktoberfest.com/) 2023! Feel free to contribute
 
