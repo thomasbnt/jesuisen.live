@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#9246FE">
+    <meta name="description" content="<%= description %>">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- TODO : SEO -->
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:image" content="<%= image %>">
+    <meta property="og:url" content="<%= url %>">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="<%= username %> is on Twitch">
+    <meta name="twitter:card" content="summary">
+
+</head>
+<body>
+<section>
+    <p>Redirecting to @<%= username %> profile on Twitch!</p>
+    <a href="https://twitch.tv/<%= username %>" class="btn">
+        Not working? Click here!
+    </a>
+</section>
+</body>
+</html>
