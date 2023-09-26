@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://jesuisen.live" target="_blank" rel="noopener noreferrer">
-<img src="doc/wordmark.svg" width="200" alt="Jesuisen.live logo">
+<img src="doc/wordmark.png" width="200" alt="Jesuisen.live logo">
 </a>
 </p>
 
