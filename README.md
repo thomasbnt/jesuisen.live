@@ -51,8 +51,8 @@ yarn serve
 
 - [ ] Don't use `TwitchAPI(username)` on every request in `username.js` route, use a cache system for the OAuth token. [#1](https://github.com/thomasbnt/jesuisen.live/issues/1)
 - [ ] Sometime, we've got an error on fetching data from Twitch API with `/u/:username` route. [#2](https://github.com/thomasbnt/jesuisen.live/issues/2)
-- [ ] More information on the embed [#3](https://github.com/thomasbnt/jesuisen.live/issues/3)
-- [ ] Add redirect HTML page for `/:username` route [#3](https://github.com/thomasbnt/jesuisen.live/issues/3)
+- [x] More information on the embed [#3](https://github.com/thomasbnt/jesuisen.live/issues/3)
+- [x] Add redirect HTML page for `/:username` route [#3](https://github.com/thomasbnt/jesuisen.live/issues/3)
 
 ### Routes
 
