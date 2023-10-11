@@ -7,21 +7,29 @@
     <meta name="theme-color" content="#9246FE">
     <meta name="description" content="<%= description %>">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="<%= image %>" type="image/png">
+    <link rel="canonical" href="<%= url %>">
 
     <!-- TODO : SEO -->
-    <meta property="og:title" content="<%= title %>">
+    <meta property="og:title" content="@<%= username %>">
     <meta property="og:description" content="<%= description %>">
     <meta property="og:image" content="<%= image %>">
     <meta property="og:url" content="<%= url %>">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="<%= username %> is on Twitch">
+    <meta property="og:site_name" content="<%= username %> on Twitch">
     <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@thomasbnt">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:image" content="<%= image %>">
+    <meta name="twitter:description" content="<%= description %>">
 
+    <!-- Redirect to Twitch -->
+    <meta http-equiv="refresh" content="0; URL='https://www.twitch.tv/<%= username %>'"/>
 </head>
 <body>
 <section>
     <p>Redirecting to @<%= username %> profile on Twitch!</p>
-    <a href="https://twitch.tv/<%= username %>" class="btn">
+    <a href="https://www.twitch.tv/<%= username %>" class="btn">
         Not working? Click here!
     </a>
 </section>
